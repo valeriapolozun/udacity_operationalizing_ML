@@ -40,7 +40,7 @@ I downloaded the config.json file, which can be found under the subscription det
 <img width="584" alt="udacity_13_app_insights" src="https://user-images.githubusercontent.com/4347923/108600633-69ab7680-7398-11eb-924b-7b77a858ab64.PNG">
 
 ### 4. Setup swagger documentation
-I used Swagger to document and consume the deploy model with APIs in GET & POST HTTP requests. To setup swagger I ran the serve.py script in port 8000 and swagger.sh in port 9000. 
+I used Swagger to document and consume the deploy model with APIs in get & post HTTP requests. To setup swagger I ran the serve.py script and swagger.sh in port 8000. 
 After this step I was able to interact with the swagger instance and see its response from localhost.
 
 <img width="630" alt="udacity_14_swagger_localhost" src="https://user-images.githubusercontent.com/4347923/108600636-6ca66700-7398-11eb-901e-66977155d458.PNG">
@@ -49,9 +49,18 @@ After this step I was able to interact with the swagger instance and see its res
 
 5. Consume the end-point
 
+<img width="306" alt="udacity_16_endpointpy_after_editing_URLandkey" src="https://user-images.githubusercontent.com/4347923/108600645-7def7380-7398-11eb-9ad5-6bcd98040cfd.PNG">
+<img width="268" alt="udacity_16_endpointpy_runs_against _the_API" src="https://user-images.githubusercontent.com/4347923/108600646-847deb00-7398-11eb-8ec1-1ec052c6c3df.PNG">
+
 6. Create a pipeline
 
+<img width="638" alt="udacity_17_pipeline_created" src="https://user-images.githubusercontent.com/4347923/108600647-8647ae80-7398-11eb-84a7-7e5c04526deb.PNG">
+
+<img width="552" alt="udacity_18_pipeline_running_details" src="https://user-images.githubusercontent.com/4347923/108600649-86e04500-7398-11eb-80db-27cd33d2c0f2.PNG">
+
+
 7. Consume the pipeline
+
 
 8. Publish the pipeline
 
