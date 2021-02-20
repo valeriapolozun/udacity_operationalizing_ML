@@ -65,9 +65,11 @@ Running the sample notebook the pipeline has been created.
 
 The deployed pipeline generated an end-point for consuming.
 
+<img width="776" alt="19_pipeline_endpoint" src="https://user-images.githubusercontent.com/4347923/108601408-b729e280-739c-11eb-9352-5e32fe400373.PNG">
+
 8. Publish the pipeline
 
-The published pipeline has a REST URL for accessing the model by other end-users.
+The published pipeline has now a REST URL for accessing the model by other end-users.
 
 ## Screen Recording
 
