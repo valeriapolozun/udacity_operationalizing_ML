@@ -47,12 +47,12 @@ After this step I was able to interact with the swagger instance and see its res
 <img width="626" alt="udacity_15_swagger_interaction" src="https://user-images.githubusercontent.com/4347923/108600641-7203b180-7398-11eb-94fd-82c06e7a8094.PNG">
 <img width="608" alt="udacity_15_swagger_interaction2" src="https://user-images.githubusercontent.com/4347923/108600643-7af48300-7398-11eb-878f-1ca04c3f1aeb.PNG">
 
-5. Consume the end-point
+### 5. Consume the end-point
 
 <img width="306" alt="udacity_16_endpointpy_after_editing_URLandkey" src="https://user-images.githubusercontent.com/4347923/108600645-7def7380-7398-11eb-9ad5-6bcd98040cfd.PNG">
 <img width="268" alt="udacity_16_endpointpy_runs_against _the_API" src="https://user-images.githubusercontent.com/4347923/108600646-847deb00-7398-11eb-8ec1-1ec052c6c3df.PNG">
 
-6. Create a pipeline
+### 6. Create a pipeline
 
 Running the sample notebook the pipeline has been created.
 
@@ -61,7 +61,7 @@ Running the sample notebook the pipeline has been created.
 <img width="552" alt="udacity_18_pipeline_running_details" src="https://user-images.githubusercontent.com/4347923/108600649-86e04500-7398-11eb-80db-27cd33d2c0f2.PNG">
 
 
-7. Consume the pipeline
+### 7. Consume the pipeline
 
 The deployed pipeline generated an end-point for consuming.
 
@@ -73,7 +73,8 @@ The published pipeline has now a REST URL for accessing the model by other end-u
 
 ## Screen Recording
 
-
+Under the following link you can find the screen recording to project:
+https://youtu.be/bh75eOdGMfo
 
 ## Standout Suggestions
 
