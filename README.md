@@ -24,11 +24,28 @@ Configuring the Auto ML run:
 <img width="946" alt="udacity_6_ML_running" src="https://user-images.githubusercontent.com/4347923/108600606-4f719880-7398-11eb-95df-f5a561da4460.PNG">
 
 
-2. Select the best model & deploy: After the completion of the Auto ML run, I selected the model with the highest accuracy as best model. This model was based on the algorithm "VotingEnsemble" and reached an accuracy of 92.018%.
+### 2. Select the best model & deploy:
+After the completion of the Auto ML run, I selected the model with the highest accuracy as best model. This model was based on the algorithm "VotingEnsemble" and reached an accuracy of 92.018%.
 
-3. Enabling application insights: I downloaded the config.json file, which can be found under the subscription details.  After this step I changed the name of the model name in the logs.py file as well as set the value of enable_application_insights to True. After it is done, I ran the the logs.py file. 
+<img width="881" alt="udacity_7_experiment_completed" src="https://user-images.githubusercontent.com/4347923/108600614-54364c80-7398-11eb-9a99-688729791f9a.PNG">
+<img width="902" alt="udacity_8_choosing_best_model" src="https://user-images.githubusercontent.com/4347923/108600617-58626a00-7398-11eb-9286-1098a4cb57d7.PNG">
+<img width="533" alt="udacity_9_best_model_votingensemble" src="https://user-images.githubusercontent.com/4347923/108600619-5d271e00-7398-11eb-9842-86ff8cb3bd65.PNG">
+<img width="869" alt="udacity_10_model_deployed" src="https://user-images.githubusercontent.com/4347923/108600623-60220e80-7398-11eb-839a-ba0f848b691a.PNG">
 
-4. Setup swagger documentation
+### 3. Enabling application insights: 
+I downloaded the config.json file, which can be found under the subscription details.  After this step I changed the name of the model name in the logs.py file as well as set the value of enable_application_insights to True. After it is done, I ran the the logs.py file. 
+
+<img width="356" alt="udacity_11_creating_logspy_for_enabling_insights" src="https://user-images.githubusercontent.com/4347923/108600624-63b59580-7398-11eb-8157-7eeafdbac19a.PNG">
+<img width="609" alt="udacity_12_running_logspy" src="https://user-images.githubusercontent.com/4347923/108600628-66b08600-7398-11eb-8f91-2a709d8ec844.PNG">
+<img width="584" alt="udacity_13_app_insights" src="https://user-images.githubusercontent.com/4347923/108600633-69ab7680-7398-11eb-924b-7b77a858ab64.PNG">
+
+### 4. Setup swagger documentation
+I used Swagger to document and consume the deploy model with APIs in GET & POST HTTP requests. To setup swagger I ran the serve.py script in port 8000 and swagger.sh in port 9000. 
+After this step I was able to interact with the swagger instance and see its response from localhost.
+
+<img width="630" alt="udacity_14_swagger_localhost" src="https://user-images.githubusercontent.com/4347923/108600636-6ca66700-7398-11eb-901e-66977155d458.PNG">
+<img width="626" alt="udacity_15_swagger_interaction" src="https://user-images.githubusercontent.com/4347923/108600641-7203b180-7398-11eb-94fd-82c06e7a8094.PNG">
+<img width="608" alt="udacity_15_swagger_interaction2" src="https://user-images.githubusercontent.com/4347923/108600643-7af48300-7398-11eb-878f-1ca04c3f1aeb.PNG">
 
 5. Consume the end-point
 
