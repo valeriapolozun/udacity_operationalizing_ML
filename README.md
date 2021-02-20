@@ -54,6 +54,8 @@ After this step I was able to interact with the swagger instance and see its res
 
 6. Create a pipeline
 
+Running the sample notebook the pipeline has been created.
+
 <img width="638" alt="udacity_17_pipeline_created" src="https://user-images.githubusercontent.com/4347923/108600647-8647ae80-7398-11eb-84a7-7e5c04526deb.PNG">
 
 <img width="552" alt="udacity_18_pipeline_running_details" src="https://user-images.githubusercontent.com/4347923/108600649-86e04500-7398-11eb-80db-27cd33d2c0f2.PNG">
@@ -61,13 +63,20 @@ After this step I was able to interact with the swagger instance and see its res
 
 7. Consume the pipeline
 
+The deployed pipeline generated an end-point for consuming.
 
 8. Publish the pipeline
 
-
+The published pipeline has a REST URL for accessing the model by other end-users.
 
 ## Screen Recording
-*TODO* Provide a link to a screen recording of the project in action. Remember that the screencast should demonstrate:
+
+
 
 ## Standout Suggestions
-*TODO (Optional):* This is where you can provide information about any standout suggestions that you have attempted.
+
+The dataset was an imbalanced dataset as it was recognised during the AutoML run. By using some further data preparation techniques we could improve our model by reducing the bias for a certain class.
+
+
+
+
