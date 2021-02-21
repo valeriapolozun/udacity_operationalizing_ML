@@ -29,9 +29,11 @@ Configuring the Auto ML run:
 <img width="914" alt="udacity_3_configure_cluster" src="https://user-images.githubusercontent.com/4347923/108600595-3ff24f80-7398-11eb-88bb-9122beb05bef.PNG">
 <img width="941" alt="udacity_4_configure_cluster2" src="https://user-images.githubusercontent.com/4347923/108600597-42ed4000-7398-11eb-9e3c-3c82d04a83d2.PNG">
 <img width="950" alt="udacity_5_ML_model_config" src="https://user-images.githubusercontent.com/4347923/108600602-4bde1180-7398-11eb-937a-0ab42e2ca810.PNG">
+
+The experiment is shown as running:
 <img width="946" alt="udacity_6_ML_running" src="https://user-images.githubusercontent.com/4347923/108600606-4f719880-7398-11eb-95df-f5a561da4460.PNG">
 
-The experiment is shown completed:
+The experiment is shown as being completed:
 <img width="881" alt="udacity_7_experiment_completed" src="https://user-images.githubusercontent.com/4347923/108600614-54364c80-7398-11eb-9a99-688729791f9a.PNG">
 
 
