@@ -31,11 +31,14 @@ Configuring the Auto ML run:
 <img width="950" alt="udacity_5_ML_model_config" src="https://user-images.githubusercontent.com/4347923/108600602-4bde1180-7398-11eb-937a-0ab42e2ca810.PNG">
 <img width="946" alt="udacity_6_ML_running" src="https://user-images.githubusercontent.com/4347923/108600606-4f719880-7398-11eb-95df-f5a561da4460.PNG">
 
+The experiment is shown completed:
+<img width="881" alt="udacity_7_experiment_completed" src="https://user-images.githubusercontent.com/4347923/108600614-54364c80-7398-11eb-9a99-688729791f9a.PNG">
+
 
 ### 2. Select the best model & deploy:
 After the completion of the Auto ML run, I selected the model with the highest accuracy as best model. This model was based on the algorithm "VotingEnsemble" and reached an accuracy of 92.018%.
 
-<img width="881" alt="udacity_7_experiment_completed" src="https://user-images.githubusercontent.com/4347923/108600614-54364c80-7398-11eb-9a99-688729791f9a.PNG">
+
 <img width="902" alt="udacity_8_choosing_best_model" src="https://user-images.githubusercontent.com/4347923/108600617-58626a00-7398-11eb-9286-1098a4cb57d7.PNG">
 <img width="533" alt="udacity_9_best_model_votingensemble" src="https://user-images.githubusercontent.com/4347923/108600619-5d271e00-7398-11eb-9842-86ff8cb3bd65.PNG">
 <img width="869" alt="udacity_10_model_deployed" src="https://user-images.githubusercontent.com/4347923/108600623-60220e80-7398-11eb-839a-ba0f848b691a.PNG">
