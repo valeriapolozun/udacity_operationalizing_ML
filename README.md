@@ -76,10 +76,12 @@ The published pipeline has now a REST URL for accessing the model by other end-u
 Under the following link you can find the screen recording to project:
 https://youtu.be/bh75eOdGMfo
 
-## Standout Suggestions
+## Further improvement possibilities for the project
 
-The dataset was an imbalanced dataset as it was recognised during the AutoML run. By using some further data preparation techniques we could improve our model by reducing the bias for a certain class.
+- Handling the imbalance dataset: The dataset was an imbalanced dataset as it was recognised during the AutoML run. By using some further data preparation techniques we could improve our model by reducing the bias for a certain class.
 
+- Experiment with deep learning algorithms to improve the model performance
 
+- Use of GPU resources for accelerating the training time
 
 
