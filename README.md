@@ -30,7 +30,8 @@ Configuring the Auto ML run:
 <img width="941" alt="udacity_4_configure_cluster2" src="https://user-images.githubusercontent.com/4347923/108600597-42ed4000-7398-11eb-9e3c-3c82d04a83d2.PNG">
 <img width="950" alt="udacity_5_ML_model_config" src="https://user-images.githubusercontent.com/4347923/108600602-4bde1180-7398-11eb-937a-0ab42e2ca810.PNG">
 
-The experiment is shown as running:
+The experiment is shown in running state:
+
 <img width="636" alt="udacity _new_1_running_experiment_overview1" src="https://user-images.githubusercontent.com/4347923/108754346-1bd47100-7546-11eb-97b1-911b8a6447f9.PNG">
 <img width="633" alt="udacity _new_2_running_experiment_details2" src="https://user-images.githubusercontent.com/4347923/108754349-1d9e3480-7546-11eb-9ed0-eb08a91f8709.PNG">
 
@@ -90,13 +91,16 @@ The pipeline is completed - we can also see the child runs listed:
 ### 7. Consume the pipeline
 
 After the training run is completed, we deployed the pipeline.
-The deployed pipeline generated an end-point for consuming.
+The deployed pipeline generated a pipeline endepoint.
 
-<img width="776" alt="19_pipeline_endpoint" src="https://user-images.githubusercontent.com/4347923/108601408-b729e280-739c-11eb-9352-5e32fe400373.PNG">
+<img width="624" alt="udacity _new_12_published_pipelines_endpoint_active" src="https://user-images.githubusercontent.com/4347923/108754458-3d355d00-7546-11eb-8b10-78dce0b59497.PNG">
 
 8. Publish the pipeline
 
 The published pipeline has now a REST URL for accessing the model by other end-users.
+
+<img width="636" alt="udacity _new_11_published_pipelines" src="https://user-images.githubusercontent.com/4347923/108754446-39a1d600-7546-11eb-9cc2-695c5f6d18f7.PNG">
+
 
 ## Screen Recording
 
@@ -107,7 +111,7 @@ A screen recording showing how we interact with an API of a deployed ML model: h
 
 ## Further improvement possibilities for the project
 
-- Handling the imbalance dataset: The dataset was an imbalanced dataset as it was recognised during the AutoML run. By using some further data preparation techniques we could improve our model by reducing the bias for a certain class.
+- Handling the imbalance dataset: The dataset was an imbalanced dataset as it was recognised during the AutoML run. By using some further data preparation techniques we could further improve our model by reducing the bias for a certain class.
 
 - Experiment with deep learning algorithms to improve the model performance
 
