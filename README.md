@@ -43,12 +43,10 @@ The experiment is shown as being completed:
 
 
 ### 2. Select the best model & deploy:
-After the completion of the Auto ML run, I selected the model with the highest accuracy as best model. This model was based on the algorithm "VotingEnsemble" and reached an accuracy of 92.018%.
+After the completion of the Auto ML run, I selected the model with the highest accuracy as best model. This model was based on the algorithm "VotingEnsemble" and reached an accuracy of 91.92%.
+
 <img width="617" alt="udacity _new_4_completed_experiment_with_best_model" src="https://user-images.githubusercontent.com/4347923/108754365-2131bb80-7546-11eb-9e39-24768f9f57fc.PNG">
 
-
-<img width="902" alt="udacity_8_choosing_best_model" src="https://user-images.githubusercontent.com/4347923/108600617-58626a00-7398-11eb-9286-1098a4cb57d7.PNG">
-<img width="533" alt="udacity_9_best_model_votingensemble" src="https://user-images.githubusercontent.com/4347923/108600619-5d271e00-7398-11eb-9842-86ff8cb3bd65.PNG">
 <img width="869" alt="udacity_10_model_deployed" src="https://user-images.githubusercontent.com/4347923/108600623-60220e80-7398-11eb-839a-ba0f848b691a.PNG">
 
 ### 3. Enabling application insights: 
@@ -56,7 +54,12 @@ I downloaded the config.json file, which can be found under the subscription det
 
 <img width="356" alt="udacity_11_creating_logspy_for_enabling_insights" src="https://user-images.githubusercontent.com/4347923/108600624-63b59580-7398-11eb-8157-7eeafdbac19a.PNG">
 <img width="609" alt="udacity_12_running_logspy" src="https://user-images.githubusercontent.com/4347923/108600628-66b08600-7398-11eb-8f91-2a709d8ec844.PNG">
+
+Application insights enabled is shown in the MS ML Studio:
+<img width="617" alt="udacity _new_6_model_deployed_insights_enabled" src="https://user-images.githubusercontent.com/4347923/108754391-2989f680-7546-11eb-898c-5ae8dd7867cf.PNG">
+
 <img width="584" alt="udacity_13_app_insights" src="https://user-images.githubusercontent.com/4347923/108600633-69ab7680-7398-11eb-924b-7b77a858ab64.PNG">
+
 
 ### 4. Setup swagger documentation
 I used Swagger to document and consume the deploy model with APIs in get & post HTTP requests. To setup swagger I ran the serve.py script and swagger.sh in port 8000. 
@@ -75,13 +78,18 @@ After this step I was able to interact with the swagger instance and see its res
 
 Running the sample notebook the pipeline has been created.
 
-<img width="638" alt="udacity_17_pipeline_created" src="https://user-images.githubusercontent.com/4347923/108600647-8647ae80-7398-11eb-84a7-7e5c04526deb.PNG">
+<img width="642" alt="udacity _new_8_pipeline_created" src="https://user-images.githubusercontent.com/4347923/108754408-2e4eaa80-7546-11eb-9ae7-e510aa093554.PNG">
 
-<img width="552" alt="udacity_18_pipeline_running_details" src="https://user-images.githubusercontent.com/4347923/108600649-86e04500-7398-11eb-80db-27cd33d2c0f2.PNG">
+The pipeline in running status in the notebook:
+<img width="570" alt="udacity _new_9_pipeline_running" src="https://user-images.githubusercontent.com/4347923/108754424-31e23180-7546-11eb-8245-8ec1ed021f53.PNG">
 
+The pipeline is completed - we can also see the child runs listed:
+<img width="624" alt="udacity _new_9_pipeline_completed" src="https://user-images.githubusercontent.com/4347923/108754413-2f7fd780-7546-11eb-8147-f54c3c5d0636.PNG">
+<img width="638" alt="udacity _new_10_pipeline_completed_child_runs" src="https://user-images.githubusercontent.com/4347923/108754438-36a6e580-7546-11eb-8327-9f514d7a54c6.PNG">
 
 ### 7. Consume the pipeline
 
+After the training run is completed, we deployed the pipeline.
 The deployed pipeline generated an end-point for consuming.
 
 <img width="776" alt="19_pipeline_endpoint" src="https://user-images.githubusercontent.com/4347923/108601408-b729e280-739c-11eb-9352-5e32fe400373.PNG">
