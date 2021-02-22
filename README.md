@@ -1,7 +1,7 @@
 
 # Operationalizing Machine Learning with Microsoft Azure
 
-In this project I demonstrate how to operationalize a ML model in MS Azure. This process includes the steps of model creation, model deployment as well as providing an URL end-point so that the model can be accessible by end-users. I will also create a pipeline of the ML training and publish the training pipeline to an endpoint so that it can be consumed.
+In this project I demonstrate how to operationalize a ML model in MS Azure. This process includes the steps of model creation, model deployment as well as providing an URL end-point so that the model can be accessible by end-users. I will also create a pipeline of the ML training, deploy & publish the training pipeline to an endpoint so that it can be consumed.
 
 We can differentiate 2 endpoints in this project:
 - model endpoint URL: this enables the end-users to use the trained model and make predictions with it
