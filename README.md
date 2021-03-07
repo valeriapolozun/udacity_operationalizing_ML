@@ -56,6 +56,7 @@ I downloaded the config.json file, which can be found under the subscription det
 <img width="356" alt="udacity_11_creating_logspy_for_enabling_insights" src="https://user-images.githubusercontent.com/4347923/108600624-63b59580-7398-11eb-8157-7eeafdbac19a.PNG">
 
 Running the python file logs.py, logs are initialized:
+
 <img width="641" alt="udacity_logs_run" src="https://user-images.githubusercontent.com/4347923/110251588-72e43800-7f81-11eb-8c57-fbb2bf9f1d52.PNG">
 
 Application insights enabled is shown in the MS ML Studio:
