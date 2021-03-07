@@ -104,9 +104,7 @@ The published pipeline has now a REST URL for accessing the model by other end-u
 ## Screen Recording
 
 Under the following link you can find the screen recording about the project:
-https://youtu.be/bh75eOdGMfo
-
-A screen recording showing how we interact with an API of a deployed ML model: https://youtu.be/E6nRk0yP11A
+https://youtu.be/lrYkXD4cF4s
 
 ## Further improvement possibilities for the project
 
