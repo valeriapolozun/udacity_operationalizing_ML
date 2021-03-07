@@ -54,7 +54,6 @@ After the completion of the Auto ML run, I selected the model with the highest a
 I downloaded the config.json file, which can be found under the subscription details.  After this step I changed the name of the model name in the logs.py file as well as set the value of enable_application_insights to True. After it is done, I ran the the logs.py file. 
 
 <img width="356" alt="udacity_11_creating_logspy_for_enabling_insights" src="https://user-images.githubusercontent.com/4347923/108600624-63b59580-7398-11eb-8157-7eeafdbac19a.PNG">
-<img width="609" alt="udacity_12_running_logspy" src="https://user-images.githubusercontent.com/4347923/108600628-66b08600-7398-11eb-8f91-2a709d8ec844.PNG">
 
 Application insights enabled is shown in the MS ML Studio:
 <img width="617" alt="udacity _new_6_model_deployed_insights_enabled" src="https://user-images.githubusercontent.com/4347923/108754391-2989f680-7546-11eb-898c-5ae8dd7867cf.PNG">
